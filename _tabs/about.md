@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> hello🙋, i am lane，a small front-end development, brickspert、serve tea and water👀, learning about front-end architecture design, simple back-end API development, and containerized deployment～
+> 哈喽🙋，我是 lane，一个小前端开发、砖家，擅长给大佬端茶倒水👀, 持续学习前端架构设计、简单的后端curd开发、容器化部署等等～
 {: .prompt-tip }
 
 ### 个人网站链接
