@@ -1,6 +1,6 @@
 ---
-title: React + Webpack迁移Vite小记
-date: 2024-09-08
+title: webpack迁移vite记录
+date: 2024-09-10
 categories: [tool]
 tags: [vite,react,工具]
 description: React + Webpack迁移 Vite 的过程记录
@@ -40,7 +40,7 @@ description: React + Webpack迁移 Vite 的过程记录
 - 支持less
 - 支持alias
 
-```ts
+```js
 import path from 'path';
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
@@ -115,7 +115,7 @@ Router-Router5 到 Router-Router6的变动还是挺多的，具体到我们项�
 
 总体入口调整如下：
 
-```jsx
+```js
 // React-Router 5
 const Container = () => {
   return (
@@ -166,7 +166,7 @@ const Container = () => {
 
 嵌套路由行为改变
 
-```jsx
+```js
 const Parent = () => (
   <div>
     <h1>Parent</h1>
@@ -200,7 +200,7 @@ Antd v4 到 Antd v5 的重量级改变是主题系统，v5 选择了 CSS-in-JS �
 
 我们项目的Antd细节调整如下(部分省略)：
 
-- Modal prop visible => open, footerStyle => styles: {{ footer: {} }}
+- Modal prop visible => open, footerStyle => styles
 - Drawer prop visible => open
 - Select prop dropdownMatchSelectWidth => popupMatchSelectWidth, bordered => variant
 - Tabs TabPane => Tabs items 配置
@@ -214,7 +214,7 @@ Antd v4 到 Antd v5 的重量级改变是主题系统，v5 选择了 CSS-in-JS �
 - husky install => husky,husky init
 - 无需使用 shell 脚本执行 husky.sh 文件
 
-```shell
+```bash
 # husky v8
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
