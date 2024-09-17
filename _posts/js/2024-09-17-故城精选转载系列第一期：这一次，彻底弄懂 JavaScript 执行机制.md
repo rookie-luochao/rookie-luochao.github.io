@@ -1,5 +1,5 @@
 ---
-title: 故城瞎折腾系列一: 故城精选转载系列第一期：这一次，彻底弄懂 JavaScript 执行机制
+title: 故城瞎折腾系列一【故城精选转载系列第一期：这一次，彻底弄懂 JavaScript 执行机制】
 date: 2024-09-17
 categories: [js]
 tags: [js]
