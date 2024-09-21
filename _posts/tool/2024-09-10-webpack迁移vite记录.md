@@ -115,7 +115,7 @@ Router-Router5 到 Router-Router6的变动还是挺多的，具体到我们项�
 
 总体入口调整如下：
 
-```js
+```jsx
 // React-Router 5
 const Container = () => {
   return (
@@ -166,7 +166,7 @@ const Container = () => {
 
 嵌套路由行为改变
 
-```js
+```jsx
 const Parent = () => (
   <div>
     <h1>Parent</h1>
